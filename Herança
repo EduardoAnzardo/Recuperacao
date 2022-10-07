@@ -1,0 +1,12 @@
+public class Veiculo {
+
+  public String Carro;
+  public String Moto;
+
+}
+
+public class Rodas extends Carro {
+
+   private String TipoPneu;
+
+}
