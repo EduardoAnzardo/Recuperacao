@@ -1,0 +1,21 @@
+public class Pet {
+
+    String nome;
+    String raça;
+    int idade;
+
+}
+
+public class Dono{
+
+    String nome;
+    int idade;
+    String profissão;
+}
+
+Dono donoDoPet = new Dono();
+
+donoDoPet.Pet = new Pet();
+
+
+donoDoPet.Pet.nome = "Roberto";
