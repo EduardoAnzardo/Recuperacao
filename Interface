@@ -1,0 +1,37 @@
+public interface Animal {
+
+    public String Bipede();
+    public String Quadrupede();
+}
+
+
+public interface Alimentacao {
+
+    public String Carnivoros();
+    public String Herbivoros();
+}
+
+
+public class Tipo implements Animal,Alimentacao {
+
+    @Override
+    public String getQuadrupede() {
+
+    }
+
+    @Override
+    public String getBipede() {
+
+    }
+
+    @Override
+    public String getCarnivoros() {
+
+    }
+
+    @Override
+    public String getHerbivoros() {
+
+    }
+
+}
